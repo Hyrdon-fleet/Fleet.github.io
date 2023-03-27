@@ -38,7 +38,6 @@ button:hover {
 }
 
 /* Page Styles */
-
 /* Reset styles for the header and navigation */
 header, nav {
     margin: 0;
@@ -86,6 +85,11 @@ header, nav {
     border: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    margin-right: 10px; /* Add margin to the right of each button */
+  }
+  
+  nav a:last-child {
+    margin-right: 0; /* Remove margin from the last button in each row */
   }
   
   nav a:hover {
